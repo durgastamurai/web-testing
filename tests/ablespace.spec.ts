@@ -20,12 +20,12 @@ import { expect, test } from '@playwright/test';
 // npx playwright open --load-storage=auth.json app.ablespace.io
 // npx playwright test --headed
 // npx playwright test meetup-login --browser=all --headed
-test('Persistent Auth', async ({ browser }) => {
-  const ctx = await browser.newContext({
-    storageState: './auth.json',
-  });
-  const page = await ctx.newPage();
+test('Persistent Auth', async ({ page }) => {
+  // const ctx = await browser.newContext({
+  //   storageState: './auth.json',
+  // });
+  // const page = await ctx.newPage();
   await page.goto('https://app.ablespace.io/dashboard');
-  await page.waitForTimeout(2000); // remove it
+  await page.waitForTimeout(5000); // remove it
   await expect(page.locator('.pro-sidebar')).toHaveCount(1);
 });

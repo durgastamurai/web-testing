@@ -1,0 +1,129 @@
+{
+  "cookies": [
+    {
+      "name": "_ga_Z4R40VRS34",
+      "value": "GS1.1.1659102794.1.0.1659102794.60",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1693662794.448937,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1623249241.1659102794",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1693662794.449828,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "amp_556096",
+      "value": "5W1Ed8in9igGXFAf7I8XGN...1g953n5lm.1g953n5lo.1.0.1",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1690638795,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "amp_556096_ablespace.io",
+      "value": "5W1Ed8in9igGXFAf7I8XGN...1g953n5lm.1g953n5ng.2.0.2",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1690638795,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1659102797288.768773303",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1666878798,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hstc",
+      "value": "252359894.15d3d80852d0e332b5af8213981d97b1.1659102798264.1659102798264.1659102798264.1",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1674654798,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "hubspotutk",
+      "value": "15d3d80852d0e332b5af8213981d97b1",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1674654798,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hssrc",
+      "value": "1",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hssc",
+      "value": "252359894.1.1659102798264",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1659104598,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ph_phc_3DTL98zP6Fxsvb2mBNDtZ4W4ElffHRnqW1nrTLgNmGQ_posthog",
+      "value": "%7B%22distinct_id%22%3A%221824a3b96c8106-09523fece57a69-1f30367a-e1000-1824a3b96c9cea%22%2C%22%24device_id%22%3A%221824a3b96c8106-09523fece57a69-1f30367a-e1000-1824a3b96c9cea%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22%24referrer%22%3A%22%24direct%22%2C%22%24referring_domain%22%3A%22%24direct%22%2C%22%24sesid%22%3A%5B1659102798540%2C%221824a3b96cd298-0ccc9a130c42c1-1f30367a-e1000-1824a3b96ce68f%22%2C1659102795469%5D%2C%22%24session_recording_enabled_server_side%22%3Atrue%2C%22%24active_feature_flags%22%3A%5B%5D%2C%22%24enabled_feature_flags%22%3A%7B%7D%7D",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1690638798,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "rum=1&id=ec145ff5-06e5-4fff-9799-436dbe6c8c8c&created=1659102795486&expire=1659103698427&logs=1",
+      "domain": "app.ablespace.io",
+      "path": "/",
+      "expires": 1659103698,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.ablespace.io",
+      "localStorage": [
+        {
+          "name": "amplitude_unsent_identify_556096f3e588ab0f6265d8cb9930a0f7",
+          "value": "[]"
+        },
+        {
+          "name": "amplitude_unsent_556096f3e588ab0f6265d8cb9930a0f7",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}

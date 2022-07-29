@@ -5,9 +5,6 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-/**
- * See https://playwright.dev/docs/test-configuration.
- */
 const config: PlaywrightTestConfig = {
   testDir: './tests',
   /* Maximum time one test can run for. */
@@ -30,24 +27,15 @@ const config: PlaywrightTestConfig = {
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
 
-  // globalSetup: './playwright-global-setup.ts',
+  globalSetup: require.resolve('./playwright-global-setup'),
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless: false,
-
-    /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
-    actionTimeout: 0,
-    /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://localhost:3000',
-
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    headless: true,
 
     /* file where the authenticated information is being stored */
-    // storageState: 'test-storage-state/storageState.json',
-    screenshot: 'only-on-failure',
-    video: 'retry-with-video',
+    // Tell all tests to load signed-in state from 'storageState.json'.
+    storageState: 'storageState.json',
   },
 
   /* Configure projects for major browsers */

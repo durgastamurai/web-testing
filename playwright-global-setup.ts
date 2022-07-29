@@ -4,8 +4,8 @@
 import type { Page } from '@playwright/test';
 import { chromium } from '@playwright/test';
 
-const _uname = process.env.MEETUP_USERNAME ?? '';
-const _pwd = process.env.MEETUP_PASSWORD ?? '';
+const _uname = process.env.USERNAME ?? '';
+const _pwd = process.env.PASSWORD ?? '';
 
 async function login(
   page: Page,
@@ -20,13 +20,14 @@ async function login(
 
 async function globalSetup(): Promise<void> {
   // const storageState = config.projects[0]?.use.storageState;
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
   await login(page, _uname, _pwd);
 
   // Save storage state into the file.
+  /* DOES NOT WORK */
   await page.context().storageState({
-    path: 'test-storage-state.json',
+    path: 'storageState.json',
   });
   await browser.close();
 }
