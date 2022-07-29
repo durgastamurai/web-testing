@@ -1,0 +1,133 @@
+{
+  "cookies": [
+    {
+      "name": "_ga_Z4R40VRS34",
+      "value": "GS1.1.1659097449.1.0.1659097449.60",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1693657449.258594,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1609646956.1659097449",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1693657449.244484,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "amp_556096",
+      "value": "asFpLUB0Djv7PHSwTr34HF...1g94uk168.1g94uk16a.1.0.1",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1690633449,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1659097453754.1605785512",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1666873454,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hstc",
+      "value": "252359894.17de5a617eb58137d54ff0888fdcae76.1659097454484.1659097454484.1659097454484.1",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1674649454,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "hubspotutk",
+      "value": "17de5a617eb58137d54ff0888fdcae76",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1674649454,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hssrc",
+      "value": "1",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hssc",
+      "value": "252359894.1.1659097454484",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1659099254,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "amp_556096_ablespace.io",
+      "value": "asFpLUB0Djv7PHSwTr34HF...1g94uk168.1g94uk64a.3.0.3",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1690633454,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ph_phc_3DTL98zP6Fxsvb2mBNDtZ4W4ElffHRnqW1nrTLgNmGQ_posthog",
+      "value": "%7B%22distinct_id%22%3A%2218249ea04d734d-000ba87b79f651-1f30367a-e1000-18249ea04d8c3d%22%2C%22%24device_id%22%3A%2218249ea04d734d-000ba87b79f651-1f30367a-e1000-18249ea04d8c3d%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22%24referrer%22%3A%22%24direct%22%2C%22%24referring_domain%22%3A%22%24direct%22%2C%22%24sesid%22%3A%5B1659097454737%2C%2218249ea04dc820-07fb668d9eef26-1f30367a-e1000-18249ea04dda43%22%2C1659097449691%5D%2C%22%24session_recording_enabled_server_side%22%3Atrue%2C%22%24active_feature_flags%22%3A%5B%5D%2C%22%24enabled_feature_flags%22%3A%7B%7D%7D",
+      "domain": ".ablespace.io",
+      "path": "/",
+      "expires": 1690633454,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "rum=1&id=d1ed2337-fc1a-48af-a58c-c4f7f8efc961&created=1659097449707&expire=1659098354705&logs=1",
+      "domain": "app.ablespace.io",
+      "path": "/",
+      "expires": 1659098354,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.ablespace.io",
+      "localStorage": [
+        {
+          "name": "li_submission",
+          "value": "{\"formSelectorId\":\"\",\"formSelectorClasses\":\"\",\"formAttributes\":{\"id\":null,\"class\":null,\"action\":\"#\"},\"contactFields\":{\"email\":{\"label\":\"Email Address\",\"name\":\"email\",\"value\":\"durga@stamurai.com\",\"type\":\"text\",\"attributes\":{}}},\"fields\":[],\"pageTitle\":\"AbleSpace - IEP Goal Tracking App\",\"pageUrl\":\"https://app.ablespace.io/signin\",\"portalId\":21246613,\"type\":\"SCRAPED\",\"utk\":\"17de5a617eb58137d54ff0888fdcae76\",\"uuid\":\"5a9601f9-bd7e-4af7-a102-fbf734302d09\",\"version\":\"collected-forms-embed-js-static-1.285\"}"
+        },
+        {
+          "name": "amplitude_unsent_identify_556096f3e588ab0f6265d8cb9930a0f7",
+          "value": "[]"
+        },
+        {
+          "name": "amplitude_unsent_556096f3e588ab0f6265d8cb9930a0f7",
+          "value": "[{\"device_id\":\"asFpLUB0Djv7PHSwTr34HF\",\"user_id\":null,\"timestamp\":1659097454730,\"event_id\":3,\"session_id\":1659097449672,\"event_type\":\"[Auth] USER_LOGIN_CLICKED\",\"version_name\":null,\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"104\",\"device_model\":\"Windows\",\"device_manufacturer\":null,\"language\":\"en-US\",\"api_properties\":{},\"event_properties\":{},\"user_properties\":{},\"uuid\":\"63f5c1b4-4730-4872-a8fd-a5242ea2c00f\",\"library\":{\"name\":\"amplitude-js\",\"version\":\"8.18.5\"},\"sequence_number\":3,\"groups\":{},\"group_properties\":{},\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.48 Safari/537.36\"}]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable @typescript-eslint/naming-convention */
 /* eslint-disable import/no-extraneous-dependencies */
-import type { FullConfig, Page } from '@playwright/test';
+import type { Page } from '@playwright/test';
 import { chromium } from '@playwright/test';
 
 const _uname = process.env.MEETUP_USERNAME ?? '';
@@ -18,18 +18,16 @@ async function login(
   await page.locator('button[type=submit] >> "Login"').click();
 }
 
-async function globalSetup(config: FullConfig): Promise<void> {
-  const storageState = config.projects[0]?.use.storageState;
+async function globalSetup(): Promise<void> {
+  // const storageState = config.projects[0]?.use.storageState;
   const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage();
   await login(page, _uname, _pwd);
 
   // Save storage state into the file.
   await page.context().storageState({
-    path: storageState?.toString(),
+    path: 'test-storage-state.json',
   });
-  // Create a new context with the saved storage state.
-  // const context = await browser.newContext({ storageState });
   await browser.close();
 }
 
