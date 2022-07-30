@@ -35,7 +35,7 @@ const config: PlaywrightTestConfig = {
 
     /* file where the authenticated information is being stored */
     // Tell all tests to load signed-in state from 'storageState.json'.
-    storageState: 'storageState.json',
+    storageState: 'auth.json',
   },
 
   /* Configure projects for major browsers */
