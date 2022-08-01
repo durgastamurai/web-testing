@@ -36,6 +36,14 @@ const config: PlaywrightTestConfig = {
     /* file where the authenticated information is being stored */
     // Tell all tests to load signed-in state from 'storageState.json'.
     storageState: 'auth.json',
+    launchOptions: {
+      args: ['--start-mximized'],
+      logger: {
+        isEnabled: (name, severity) => true,
+        log: (name, severity, message, args) => console.log(name, severity, message),
+      },
+      slowMo: 1000,
+    },
   },
 
   /* Configure projects for major browsers */
