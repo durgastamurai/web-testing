@@ -40,7 +40,8 @@ const config: PlaywrightTestConfig = {
       args: ['--start-mximized'],
       logger: {
         isEnabled: (name, severity) => true,
-        log: (name, severity, message, args) => console.log(name, severity, message),
+        log: (name, severity, message, args) =>
+          console.log(name, severity, message),
       },
       slowMo: 1000,
     },
